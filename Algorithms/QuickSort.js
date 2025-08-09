@@ -1,7 +1,7 @@
 function quickSort(arr) {
-  if (arr.length <= 1) return arr; // Base case
+  if (arr.length <= 1) return arr;
 
-  const pivot = arr[arr.length - 1]; // Choose last element as pivot
+  const pivot = arr[arr.length - 1];
   const left = [];
   const right = [];
 
